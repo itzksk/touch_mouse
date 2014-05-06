@@ -1,0 +1,6 @@
+-Using a 4 wire resistive touchscreen to control the mouse events on linux.
+-Left,right click ,wheel up and down are implemented.
+-touch.cpp will read from USB port for the coordinates and pyProcess.py will implement the mouse.
+
+*** plug and play ***
+-you need to write udev rules for this feature.

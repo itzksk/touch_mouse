@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#touch /home/shiva/Desktop/workspace/touch_mouse/udev.touch   #this is working!!
+export DISPLAY=":0.0"
+sudo  /home/shiva/Desktop/workspace/touch_mouse/run.sh &> /dev/null
+#notify-send "Touse v1.0" "Running" -t 1000
+
